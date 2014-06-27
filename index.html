@@ -6,7 +6,7 @@
 	<script src="scripts.js"></script>
 </head>
 
-<body>
+<body onload="text_body()">
 	<div id="banner">
 		<img src="Logo.png" height="70" width="300">
 		<a href="#" class="button">About</a>
@@ -14,7 +14,8 @@
 		</div>
 	</div>
 	<div id="main-content">
-		<textarea name="styled-textarea" id="styled" placeholder="Type Here..."></textarea>
+
+		<textarea name="styled-textarea" id="styled" placeholder="Type Here..." OnInput= "OnInput(event);" ></textarea>
 	</div>
 </body>
 
